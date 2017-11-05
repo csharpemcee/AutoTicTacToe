@@ -21,7 +21,7 @@ while True:
 			scores[0] += 1
 			print("X WINS")
 			break
-		elif (table[0][0] == 2 and table[1][1] == 2 and table[2][2] == 2) or (table[2][0] == 2 and table[1][1] == 2 and table[0][2] == 2):
+		elif (table[0][0] == 2 and table[1][1] == 2 and table[2][2] == 2) or (table[2][0] == 2 and table[1][1] == 2 and table[0][2] == 2) or (table[0][0] == 2 and table[1][0] == 2 and table[2][0] == 2) or (table[0][1] == 2 and table[1][1] == 2 and table[2][1] == 2) or (table[0][2] == 2 and table[1][2] == 2 and table[2][2] == 2) or (table[0][0] == 2 and table[0][1] == 2 and table[0][2] == 2) or (table[1][0] == 2 and table[1][1] == 2 and table[1][2] == 2) or (table[2][0] == 2 and table[2][1] == 2 and table[2][2] == 2):
 			scores[1] += 1
 			print("O WINS")
 			break
